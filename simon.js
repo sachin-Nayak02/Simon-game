@@ -62,7 +62,7 @@ function checkAns(idx){
         let h3=document.querySelector("h3");
         if(highscor<=level){
             highscor=level;
-            h3.innerText=`Your high Score is ${highscor}`;
+            h3.innerText=`Your high Score is ${highscor}`
         }else{
             h3.innerText=`Your high Score is ${highscor}`;
         }
