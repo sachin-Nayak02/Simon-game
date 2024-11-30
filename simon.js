@@ -66,7 +66,7 @@ function checkAns(idx){
         }else{
             h3.innerText=`Your high Score is ${highscor}`;
         }
-        reset();
+        reset();//call reset()
     }
 }
 function reset(){
